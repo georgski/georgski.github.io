@@ -32,7 +32,7 @@ Using AOT compilation has a number of benefits that can considerably improve app
 Since the compilation takes place at a build time, there is no need to ship the source of Angular compiler with the application. Angular itself is a relatively large framework comparing to other popular alternatives such as React or Vue, so this is very important especially that the compiler is the largest part of the framework. The below screenshot shows the visual analysis of the vendor bundle from the project I’ve recently been working on. While the Angular framework took up 89% of the total vendor bundle size, the compiler represented approximately 45% of the framework.
     
 
-![]({{ "/assets/posts/2/size_breakdown.png" | absolute_url }}){: .center-block }
+![](/assets/posts/2/size_breakdown.png){: .center-block }
 
 -   Reduced boot time
 Since there is no need to compile the code at run time, the application is loaded quicker.
